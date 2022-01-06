@@ -101,7 +101,8 @@
         padding-right: 10px;
         background-repeat: no-repeat;
         background-size: auto;
-        background-attachment: fixed;
+        background-attachment: scroll;
+        border-radius: 50px;
     }
     .half{
         width: 50%;
@@ -121,5 +122,23 @@
     }
     .link-button{
         text-decoration: none;
+        color: white;
+        font-weight: 800;
+        font-size: 1.3rem;
+        padding: 5px 13px;
+        background-color: crimson;
+        border-radius: 10px;
     }
+    .link-button:hover{
+        opacity: .6;
+        transition: 0.6;
+    }
+    .section-forth{
+        display: flex;
+        background-image: url(bg4.png);
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+
+
 
