@@ -1,144 +1,239 @@
-    body {
-    font-family: "Bebas Neue", cursive;
-    font-family: "Poppins", sans-serif;
-    font-family: "PT Sans Narrow", sans-serif;
-    margin: 0;
-    background-color: rgb(245, 240, 240);
-    }
-    p {
-    font-size: 20px;
-    }
-    h1 {
-    font-size: 2rem;
-    }
-    span {
-    color: orangered;
-    font-size: 3rem;
-    }
-    .container {
-    display: flex;
-    }
-    .half-width {
-    width: 50%;
-    padding-left: 10%;
-    }
-    .half-width img {
-    width: 670px;
-    
-    }
-    .anchor {
-    text-decoration: none;
-    color: white;
-    background-color: orangered;
-    padding: 5px 35px;
-    border-radius: 10px;
-    font-weight: 700;
-    font-size: 1.4rem;
-    }
-     .double-other{
+        body {
+        font-family: "Bebas Neue", cursive;
+        font-family: "Poppins", sans-serif;
+        font-family: "PT Sans Narrow", sans-serif;
+        margin: 0;
+        background-color: rgb(245, 240, 240);
+        }
+        p {
+        font-size: 20px;
+        }
+        h1 {
+        font-size: 2rem;
+        }
+        span {
+        color: orangered;
+        font-size: 3rem;
+        }
+        .container {
         display: flex;
-        padding: 8%;
-    }
-    .position-1{
-        width: 30%;
-        height: 100%;
-        padding: 20px;
-        box-shadow: 15px 23px 30px darkorange;
-        background-color: rgb(65, 231, 231);
-        color: black;
-        border-radius: 20px;
-        margin-right: 20px;
-        margin: 20px 30px;
-    }
-    .position-2{
-        width: 30%;
-        height: 100%;
-        padding: 20px;
-        box-shadow: 20px 25px 30px salmon;
-        background-color: sandybrown;
-        border-radius: 20px;
-        margin-right:20px;
-        margin:20px 30PX;
-        color: black;
-
-
-    }
-    .position-3{
-        width: 30%;
-        height: 100%;
-        padding: 20px;
-        box-shadow: 20px 25px 30px lightgreen;
-        background-color: rgb(2, 59, 95);
-        border-radius: 20px;
-        margin-right: 20px;
-        margin: 20px 30px;
-        color: black;
-    }
-
-    
-    .position-1:hover{
-        opacity: .5;
-        transition:0.9s;
-    }
-    .position-2:hover{
-        opacity: .5;
-        transition:0.9s;
-    }
-    .position-3:hover{
-        opacity: .5;
-        transition:0.9s;
-    }
-    
-    .anchor:hover{
-        opacity: .3;
-        transition: 0.2s;
-    }
-    
-    
-    .section-thired{
-        display: flex;
-        background-image: url(bg9.png);
-        padding-right: 10px;
+        background-image: url(bg8.png);
+        background-position: right;
+        background-size: 50%;
         background-repeat: no-repeat;
-        background-size: auto;
-        background-attachment: scroll;
-        border-radius: 50px;
-    }
-    .half{
+        }
+        .half-width {
         width: 50%;
-        padding: 10%;
-        margin: 10px;
-    }
-    .half img{
-        width: 100%;
-        padding:20%;
-        size: 100px;
-        box-shadow: 10px 5px 50px;
-        border-radius: 50px;
-    
-    }
-    .paragraph{
-        font-size: 1.3rem;
-    }
-    .link-button{
+        padding-left: 10%;
+        }
+        .half-width img {
+        width: 670px;
+        
+        }
+        .anchor {
         text-decoration: none;
         color: white;
-        font-weight: 800;
-        font-size: 1.3rem;
-        padding: 5px 13px;
-        background-color: crimson;
+        background-color: orangered;
+        padding: 5px 35px;
         border-radius: 10px;
-    }
-    .link-button:hover{
-        opacity: .6;
-        transition: 0.6;
-    }
-    .section-forth{
-        display: flex;
-        background-image: url(bg4.png);
-        background-repeat: no-repeat;
-        background-position: right;
-    }
+        font-weight: 700;
+        font-size: 1.4rem;
+        }
+    .double-other{
+            display: flex;
+            padding: 8%;
+        }
+        .position-1{
+            width: 30%;
+            height: 100%;
+            padding: 20px;
+            box-shadow: 15px 23px 30px darkorange;
+            background-color: rgb(65, 231, 231);
+            background-image: url(/ins1.png);
+            background-size: 50%;
+            background-repeat: no-repeat;
+            background-position: top;
+            color: black;
+            border-radius: 20px;
+            margin-right: 20px;
+            margin: 20px 30px;
+        }
+        .position-2{
+            width: 30%;
+            height: 100%;
+            padding: 20px;
+            box-shadow: 20px 25px 30px salmon;
+            background-image: url(/ins2.png);
+            background-repeat: no-repeat;
+            
+            background-size: 50%;
+            background-position: top;
+            background-color: sandybrown;
+            border-radius: 20px;
+            margin-right:20px;
+            margin:20px 30PX;
+            color: black;
 
 
+        }
+        .position-3{
+            width: 30%;
+            height: 100%;
+            padding: 20px;
+            box-shadow: 20px 25px 30px lightgreen;
+            background-image: url(/ins3.png);
+            background-repeat: no-repeat;
+            background-size: 50%;
+            background-position: top;
+            background-color: rgb(16, 164, 255);
+            border-radius: 20px;
+            margin-right: 20px;
+            margin: 20px 30px;
+            color: black;
+        }
+
+        
+        .position-1:hover{
+            opacity: .5;
+            transition:0.9s;
+        }
+        .position-2:hover{
+            opacity: .5;
+            transition:0.9s;
+        }
+        .position-3:hover{
+            opacity: .5;
+            transition:0.9s;
+        }
+        
+        .anchor:hover{
+            opacity: .3;
+            transition: 0.2s;
+        }
+        
+        
+        .section-thired{
+            display: flex;
+            background-image: url(bg9.png);
+            padding-right: 10px;
+            background-repeat: no-repeat;
+            background-size: auto;
+            background-attachment: scroll;
+            border-radius: 50px;
+        }
+        .half{
+            width: 50%;
+            padding: 10%;
+            margin: 10px;
+        }
+        .half img{
+            width: 100%;
+            padding:20%;
+            size: 100px;
+            box-shadow: 10px 5px 50px;
+            border-radius: 50px;
+        
+        }
+        .paragraph{
+            font-size: 1.3rem;
+        }
+        .link-button{
+            text-decoration: none;
+            color: white;
+        
+            font-weight: 800;
+            font-size: 1.3rem;
+            padding: 5px 13px;
+            background-color: crimson;
+            border-radius: 10px;
+        }
+        .link-button:hover{
+            opacity: .6;
+            transition: 0.6;
+        }
+        .section-forth{
+            display: flex;
+            background-image: url(bg4.png);
+            background-repeat: no-repeat;
+            background-position: right;
+            background-attachment: scroll;
+        }
+        #rut{
+            font-size: 2rem;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        header{
+            text-align: center;
+            font-size: 3rem;
+        }
+        small{
+            font-size: 2rem;
+            color: orangered;
+            font-weight: 700;
+        }
+        .major-half{
+            display: flex;
+            padding: 9%;
+            
+        }
+        .card-image{
+            width: 80%;
+            padding-left: 2%;
+        }
+        .level{
+            width: 50%;
+            padding-left: 5%;
+        }
+        .level1{
+            color: rgb(0, 218, 94);
+        }
+        .report-card{
+            background-image: url(bg2.png);
+            background-position: center;
+            background-image: url(bg1.png);
+            background-position: right;
+            background-repeat: no-repeat;
+            
+            background-size: 10%;
+
+        }
+        .backgound-image{
+            background-image: url(bg3.png);
+            background-repeat: no-repeat;
+            background-size: 30%;
+        }
+        .link-button2{
+            text-decoration: none;
+            font-size: 1.7rem;
+            font-weight: 700;
+            padding: 5px 20px;
+            color: black;
+            border-radius: 10px;
+            background-color: rgb(87, 245, 87);
+        }
+
+        .link-button2:hover{
+            transition: 0.7s;
+            opacity: .5;
+            background-color: greenyellow;
+        }
+        footer{
+            background-color: black;
+            border-radius: 10px;
+            height: 170px;
+        }
+        footer{
+            text-align: center;
+            font-size: 4rem;
+            color: white;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .footer{
+            color: tomato;
+
+        }
+        .change{
+            color: rgb(255, 241, 241);
+            font-size: 10px;
+        }
 
