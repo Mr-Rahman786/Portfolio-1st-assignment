@@ -98,10 +98,10 @@
     .section-thired{
         display: flex;
         background-image: url(bg9.png);
+        padding-right: 10px;
         background-repeat: no-repeat;
         background-size: auto;
-        background-attachment: scroll;
-       
+        background-attachment: fixed;
     }
     .half{
         width: 50%;
@@ -115,5 +115,11 @@
         box-shadow: 10px 5px 50px;
         border-radius: 50px;
     
+    }
+    .paragraph{
+        font-size: 1.3rem;
+    }
+    .link-button{
+        text-decoration: none;
     }
 
