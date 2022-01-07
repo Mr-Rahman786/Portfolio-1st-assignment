@@ -19,7 +19,8 @@
             display: flex;
             background-image: url(bg8.png);
             background-position: right;
-            background-size: 50%;
+            background-size: 30%;
+            padding-right: 3%;
             background-repeat: no-repeat;
             }
             .half-width {
@@ -117,9 +118,10 @@
                 background-image: url(bg9.png);
                 padding-right: 10px;
                 background-repeat: no-repeat;
-                background-size: auto;
+                background-size: 30%;
+                margin-left: 10px;
                 background-attachment: scroll;
-                border-radius: 50px;
+                border-radius: 20px;
             }
             .half{
                 width: 50%;
@@ -155,8 +157,15 @@
                 display: flex;
                 background-image: url(bg4.png);
                 background-repeat: no-repeat;
+                padding-left: 2%;
                 background-position: right;
                 background-attachment: scroll;
+            }
+            .section-forth img{
+                margin-right: 10%;
+                padding-left:2%;
+                border-radius: 10px;
+
             }
             #rut{
                 font-size: 2rem;
